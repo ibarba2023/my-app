@@ -1,0 +1,29 @@
+.form {
+    display: contents;
+    .label {
+        padding: 5px 0;
+    }
+    .input{
+        border: solid 2px green;
+        border-radius: 20px;
+        padding: 10px;
+        margin-right: 5px;
+    }
+    .input:focus{
+        background-color: lightgreen;
+        border: solid 2px green;
+    }
+
+    .button {
+        color: darkgreen;
+        background-color: lightgreen;
+        border-radius: 20px;
+        padding: 10px;
+        border: solid 2px darkgreen;
+    }
+
+    .button:hover {
+        color: lightgreen;
+        background-color: darkgreen;
+    }
+}
