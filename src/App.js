@@ -12,7 +12,9 @@ function App() {
   return (
     <div className="App">
       <h1 className='header'>Welcome to the app</h1>
-      <div className="blinking-text">⚠️ Atención: Este texto parpadea y no se puede pausar.</div> {/* ERROR AAA */}
+      <p style={{ color: '#cccccc', backgroundColor: '#ffffff' }}>
+        Este texto tiene un contraste insuficiente de 2:1, lo que viola el criterio WCAG AAA.
+      </p> {/* ERROR AAA */}
       <Salute name={name} />
       <Age birthday={birthday} />
       <InputName setName={setName} />
